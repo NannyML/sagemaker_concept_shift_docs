@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sagemaker-concept-shift-docs"
+version = "0.1.0"
+description = ""
+authors = ["alexnanny <alejandro@nannyml.com>"]
+readme = "README.md"
+packages = [{include = "sagemaker_concept_shift_docs"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.1.2"
+sagemaker = "^2.196.0"
+jupyter = "^1.0.0"
+fsspec = "^2023.10.0"
+s3fs = "^2023.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
